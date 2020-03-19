@@ -14,7 +14,7 @@ pipeline {
     }
 	
 	environment {		
-		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/avr128da48-led-blink-sleep-example.git'
+		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/avr128da48-led-dimming-pwm-example.git'
 		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebeavr128da48-led-blink-sleep-example.git'
 		DEPLOY_TOOL_URL = 'https://bitbucket.microchip.com/scm/citd/tool-github-deploy.git'
 		DEPLOY_SCRIPT_DIR = 'tool-github-deploy'
