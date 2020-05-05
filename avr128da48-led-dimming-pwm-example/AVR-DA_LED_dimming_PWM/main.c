@@ -35,7 +35,7 @@ void TCA1_init(void);
 
 void PORT_init(void)
 {
-	PORTC.DIRSET |= PIN6_bm;						/* set pin 6 of PORT C as output */
+	PORTC.DIRSET = PIN6_bm;						    /* set pin 6 of PORT C as output */
 }
 
 void TCA1_init(void)
