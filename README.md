@@ -3,7 +3,7 @@
 # AVR128DA48 LED Dimming Using PWM Code Example
 
 This repository provides an Atmel Studio solution with a bare metal code example for an LED dimming implemented using a PWM signal.
-The example demonstrates the basic functionality of Timer/Counter Type A used to generate a PWM signal. The output waveform is connected to the on-board LED. The PWM duty cycle value is incremented continuously until it reaches the maximum value and then is reloaded to 0. This produces the dimming effect of the LED.
+The example demonstrates the basic functionality of Timer/Counter Type A (TCA) used to generate a PWM signal. The output waveform is connected to the on-board LED. The PWM duty cycle value is incremented continuously until it reaches the maximum value and then is reloaded to 0. This produces the dimming effect of the LED.
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
@@ -56,4 +56,4 @@ Demo:
 <br><img src="images/AVR-DA_LED_dimming_pwm.gif" width="500">
 
 ## Summary
-The example demonstrates the basic functionality of Timer/Counter Type A used to generate a PWM signal.
+The example demonstrates the basic functionality of Timer/Counter Type A (TCA) used to generate a PWM signal. The generated PWM signal produces the dimming effect of the on-board LED.
