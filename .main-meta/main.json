@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.avr128da48-led-dimming-pwm-example",
+        "version": "1.0.5",
+        "displayName": "LED Dimming with PWM Example",
+        "projectName": "avr128da48-led-dimming-pwm-example",
+        "shortDescription": "This repository provides an Atmel Studio solution with a bare metal code example for an LED dimming implemented using a PWM signal.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "STUDIO",
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.0.21"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,26 +32,21 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DA48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+               "Peripherals", "TCA"
             ],
-            [
-               "Peripherals", ""
-            ]            			
         ],
         "peripherals": [
-            "",""
+            "TCA"
         ],
         "keywords": [
-            "",
-            ""			
+            "Dimming"
         ],
 		"additionalData": {
 			"longDescription": {
