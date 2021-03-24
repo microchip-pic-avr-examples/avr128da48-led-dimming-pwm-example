@@ -5,9 +5,9 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-led-dimming-pwm-example",
         "version": "1.0.5",
-        "displayName": "LED Dimming with PWM Example",
+        "displayName": "LED Dimming Using PWM",
         "projectName": "avr128da48-led-dimming-pwm-example",
-        "shortDescription": "This repository provides an Atmel Studio solution with a bare metal code example for an LED dimming implemented using a PWM signal.",
+        "shortDescription": "This repository provides a Microchip Studio solution with a bare metal code example for an LED dimming implemented using a PWM signal",
         "ide": {
             "name": "STUDIO",
             "semverRange": ">=7.0.2397"
@@ -39,14 +39,16 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "TCA"
+               "Peripherals",
+			   "TCA"
             ]
         ],
         "peripherals": [
             "TCA"
         ],
         "keywords": [
-            "Dimming"
+            "LED Dimming",
+			"Getting Started"
         ],
 		"additionalData": {
 			"longDescription": {

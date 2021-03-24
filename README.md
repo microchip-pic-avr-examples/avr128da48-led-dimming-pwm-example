@@ -1,8 +1,8 @@
-<a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300"/></a>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# AVR128DA48 LED Dimming Using PWM Code Example
+# LED Dimming Using PWM
 
-This repository provides an Atmel Studio solution with a bare metal code example for an LED dimming implemented using a PWM signal.
+This repository provides a Microchip Studio solution with a bare metal code example for an LED dimming implemented using a PWM signal.
 The example demonstrates the basic functionality of Timer/Counter Type A (TCA) used to generate a PWM signal. The output waveform is connected to the on-board LED. The PWM duty cycle value is incremented continuously until it reaches the maximum value and then is reloaded to 0. This produces the dimming effect of the LED.
 
 ## Related Documentation
@@ -13,7 +13,7 @@ More details and code examples on the AVR128DA48 can be found at the following l
 
 
 ## Software Used
-- Atmel Studio 7.0.2397 or newer [(microchip.com/mplab/avr-support/atmel-studio-7)](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- Microchip Studio 7.0.2397 or newer [(Microchip Studio for AVR® and SAM Devices)](https://www.microchip.com/en-us/development-tools-tools-and-software/microchip-studio-for-avr-and-sam-devices)
 - AVR-Dx 1.0.18 or newer Device Pack
 
 
@@ -38,7 +38,7 @@ The following configurations must be made for this project:
 
 ## Operation
 
-1. Open the *AVR-DA_LED_dimming_PWM.atsln* solution in Atmel Studio
+1. Open the *AVR-DA_LED_dimming_PWM.atsln* solution in Microchip Studio
 
 2. Build the solution: right click on *AVR-DA_LED_dimming_PWM* solution and select Build
 <br><img src="images/AVR-DA_LED_dimming_pwm_build.png" width="500">
